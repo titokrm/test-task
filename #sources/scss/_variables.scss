@@ -1,0 +1,39 @@
+$default-font: 'Poppins', sans-serif;
+
+$color-forbody: #FAFBFF;
+$color-active: #5932EA;
+$color-menu: #9197B3;
+$color-textlight: #B5B7C0;
+$color-bg-ok: rgba(22, 192, 152, 0.38);
+$color-bor-ok: #00B087;
+$color-bg-err: #FFC5C5;
+$color-bor-err: #DF0404;
+$color-ok: #16C098;
+$color-oklabel: #008767;
+$color-paginatext: #404B52;
+$color-paginabg: #F5F5F5;
+$color-logo: #838383;
+$color-post: #757575;
+$color-bginput: #F9FBFF;
+$color-border: #eee;
+
+/*----Size const------*/
+$rem-size: 16;
+$width-container: 1440;
+$padding-container: 95;
+$padding-container-tab: 35;
+$padding-container-mob: 15;
+$padding-customers: 38;
+$margin-pagination: 6;
+
+$desk-sm-width: 1400px; // 1025-1400
+$tab-width: 1024px; // 767-1024
+$mob-width: 767.98px; // 480 - 767
+$xs-mob-width: 479.98px;  // 0 720
+
+$animate-time: .3s;
+
+:root {
+  font-size: $rem-size * 1px;
+  height: 100%;
+}

@@ -1,0 +1,13 @@
+.h2 {
+  font-size: calc(24 / $rem-size) * 1rem;
+  line-height: calc((36 / 24) * 1em);
+  margin-bottom: calc((36 / 24) * 1em);
+  font-weight: 500;
+}
+.h3 {
+  font-size: calc(22 / $rem-size) * 1rem;
+  line-height: calc((33 / 22) * 1em);
+  font-weight: 600;
+  margin-bottom: calc((33 / 22) * 1em);
+  letter-spacing: -0.01em;
+}

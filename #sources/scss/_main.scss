@@ -1,0 +1,32 @@
+body {
+  font-size: 1rem;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: $default-font;
+  font-weight: bold;
+  font-style: normal;
+  min-width: 320px;
+  justify-content: space-between;
+  background-color: $color-forbody;
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+  }
+}
+
+[class*="__container"], .container {
+  max-width: calc($width-container / $rem-size) * 1rem;  
+  margin: 0 auto;
+  padding-left: 0;
+}
+
+.container {
+  position: relative;
+  background-color: $color-forbody;
+  width: 100%;
+}
