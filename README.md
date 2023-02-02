@@ -1,3 +1,3 @@
 # Тестовое задание
 ### Для просмотра страницы перейдите [сюда](https://titokrm.github.io/test-task/result/)
-*задание для https://t.me/Lifedev_uabot*
+*Временные затраты на задание ~ 8 часов. Задание для https://t.me/Lifedev_uabot*
